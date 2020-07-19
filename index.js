@@ -30,6 +30,6 @@ function findBy(array, findFn) {
     if (array[i] !== typeof findFn) {
       return null;
     }
-    
+
   }
 }
