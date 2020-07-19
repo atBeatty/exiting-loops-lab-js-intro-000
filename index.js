@@ -25,5 +25,11 @@ function keepGoing(array, changeValue, skipValue) {
 }
 
 function findBy(array, findFn) {
-
+  var foundValue = findFn();
+  for (var i = 0; i < array.length; i++) {
+    if (array[i] !== typeof findFn) {
+      return null;
+    }
+    
+  }
 }
